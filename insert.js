@@ -175,6 +175,6 @@ class WebServerSumaBody {
 }
 
 (async () => {
-  const miServer = new WebServerSumaBody("127.0.0.1", 3020);
+  const miServer = new WebServerSumaBody("0.0.0.0", 3020);
   miServer.iniciarServidor();
 })();

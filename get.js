@@ -1,6 +1,5 @@
 import { createServer } from "node:http";
 import sql from "./db.js";
-import { isAbsolute } from "node:path";
 
 class insert {
   constructor(hostname, port) {
@@ -119,5 +118,5 @@ class insert {
   }
 }
 
-const miServer = new insert("127.0.0.1", 3010);
+const miServer = new insert("0.0.0.0", 3010);
 miServer.iniciarServidor();

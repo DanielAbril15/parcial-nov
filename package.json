@@ -1,5 +1,8 @@
 {
   "dependencies": {
     "@supabase/supabase-js": "^2.78.0"
+  },
+  "scripts": {
+    "start": "bash -c 'node get.js & node insert.js & wait'"
   }
 }
